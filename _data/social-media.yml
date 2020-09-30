@@ -1,5 +1,5 @@
 github:
-  id: 'Nicholas Dysle'
+  id: 
   href: 'https://github.com/ndysle1'
   title: 'GitHub'
   fa-icon: 'fa-github-square'
@@ -11,13 +11,13 @@ email:
   fa-icon: 'fa-envelope-square'
 
 linkedin:
-  id: 'Nicholas Dysle'
+  id:
   href: 'https://www.linkedin.com/in/nicholasdysle/'
   title: 'LinkedIn'
   fa-icon: 'fa-linkedin-square'
 
 tableau:
-  id: 'Nicholas Dysle'
+  id: 
   href: 'https://www.twitter.com/'
-  title: 'Twitter'
-  fa-icon: 'fa-twitter-square'
+  title: 'Tableau Public'
+  fa-icon: 'fa-desktop'
