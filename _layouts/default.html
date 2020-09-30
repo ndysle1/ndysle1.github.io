@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <link rel="icon" href="/_icons/linkedin.png" type="image/png" sizes="16x16">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -19,7 +18,7 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1 class="project-name">Nicholas Dysle</h1>
+          <h1>{{ site.title | default: Nicholas Dysle }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
@@ -28,6 +27,11 @@
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
         {% endif %}
+        <a href="mailto:nicholasdysle@gmail.com">Send email!</a>
+        <a href="https://github.com/ndysle1/" target="_blank">GitHub</a>
+        <a href="https://public.tableau.com/profile/nicholas.dysle#!/" target="_blank">Tableau Public</a>
+        <a href="https://www.linkedin.com/in/nicholasdysle/" target="_blank">
+          <img src="/_icons/linkedin.png" alt="LinkedIn" style="width:42px;height:42px;"></a>
       </div>
     </header>
 
