@@ -21,17 +21,11 @@
           <h1>{{ site.title | default: Nicholas Dysle }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
-        {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Check out my</small> GitHub</a>
-        {% endif %}
-        <h3>class = "icon"</h3>
-        <a href="mailto:nicholasdysle@gmail.com" style="color:white;">Send email!</a>
-        <a href="https://public.tableau.com/profile/nicholas.dysle#!/" style="color:white;" target="_blank">Tableau Public</a>
-        <a href="https://www.linkedin.com/in/nicholasdysle/" style="color:white;" target="_blank">
-          <img src="/_icons/linkedin.png" alt="LinkedIn" style="width:42px;height:42px;"></a>
+          <a href="mailto:nicholasdysle@gmail.com" class="button" style="color:white;">Send email!</a>
+          <a href="https://public.tableau.com/profile/nicholas.dysle#!/" class="button" style="color:white;" target="_blank">Tableau Public</a>
+          <a href="https://www.linkedin.com/in/nicholasdysle/" class="button" style="color:white;" target="_blank">
+           <img src="/_icons/linkedin.png" alt="LinkedIn"></a>
       </div>
     </header>
 
