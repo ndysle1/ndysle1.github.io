@@ -1,0 +1,23 @@
+github:
+  id: 'Nicholas Dysle'
+  href: 'https://github.com/ndysle1'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
+
+email:
+  id: 'nicholasdysle@gmail.com'
+  href: 'mailto:nicholasdysle@gmail.com'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+linkedin:
+  id: 'Nicholas Dysle'
+  href: 'https://www.linkedin.com/in/nicholasdysle/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
+
+tableau:
+  id: 'Nicholas Dysle'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'

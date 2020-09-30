@@ -21,12 +21,17 @@
           <h1>{{ site.title | default: Nicholas Dysle }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-          <a href="{{ site.github.owner_url }}" class="button"><small>Check out my</small> GitHub</a>
-        <h3>{{ site.description | default: Links }}</h3>
-          <a href="mailto:nicholasdysle@gmail.com" class="button" style="color:white;">Send email!</a>
-          <a href="https://public.tableau.com/profile/nicholas.dysle#!/" class="button" style="color:white;" target="_blank">Tableau Public</a>
-          <a href="https://www.linkedin.com/in/nicholasdysle/" class="button" style="color:white;" target="_blank">
-           <img src="/_icons/linkedin.png" alt="LinkedIn"></a>
+          {% if site.data.social-media %}
+          <div id="social-media">
+              {% assign sm = site.data.social-media %}
+              {% for entry in sm %}
+                  {% assign key = entry | first %}
+                  {% if sm[key].id %}
+                      <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="fa {{ sm[key].fa-icon }}"></i></a>
+                  {% endif %}
+              {% endfor %}
+          </div>
+          {% endif %}
       </div>
     </header>
 
