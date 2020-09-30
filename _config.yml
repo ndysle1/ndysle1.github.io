@@ -1,2 +1,11 @@
+# Site Settings
 theme: jekyll-theme-architect
 title: Nicholas Dysle
+description: Nick Dysle's GitHub Pages
+baseurl: ''
+url: https://ndysle1.github.io/
+
+# Build Settings
+include:['_pages']
+kramdown:
+  input: GFM
