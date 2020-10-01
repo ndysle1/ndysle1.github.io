@@ -9,3 +9,7 @@ url: https://ndysle1.github.io/
 include: ['_pages']
 markdown: kramdown
 input: GFM
+gems:
+  - jekyll-font-awesome-sass
+font-awesome:
+  assets: true
