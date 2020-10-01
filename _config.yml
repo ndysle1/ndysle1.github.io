@@ -6,6 +6,6 @@ baseurl: ''
 url: https://ndysle1.github.io/
 
 # Build Settings
-include:['_pages']
+include: ['_pages']
 markdown: kramdown
 input: GFM
