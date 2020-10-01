@@ -1,14 +1,37 @@
 <header>
 <style>
-  .first-column {
-    width: 66%;
+ .first-third {
+    width: 60%;
     padding: 0 10px 0 0;
     float: left;
 }
-.second-column {
-    width: 33%;
+.second-third {
+    width: 20%;
     padding: 0 10px 0 0;
-    float: right; 
+    float: left;
+}
+.third-third {
+    width: 20%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+@media only screen and (max-width: 960px) {
+    .first-third {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+    .second-third {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+    .third-third {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
 }
 </style>
    <div class="first-third">
@@ -17,8 +40,6 @@
    </div>
    <div class = "second-third">Picture here</div>
    <div class = "third-third">
-    <a href="{{ site.github.owner_url }}" class="button"><small>Check out my</small> GitHub</a>
-  </br>
     <a href="mailto:nicholasdysle@gmail.com" class="fa fa-envelope-square"></a>
     <a href="mailto:nicholasdysle@gmail.com" class="fa fa-envelope-square"></a>
     <a href="https://www.linkedin.com/in/nicholasdysle/" class="fa fa-linkedin"></a>
