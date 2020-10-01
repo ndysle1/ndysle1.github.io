@@ -16,12 +16,11 @@
           </a>
         {% endif %}
         
-        <nav>
-			<ul>
-            {% for page in site.pages %} {% if page.title %}
+		<ul>
+          {% for page in site.pages %} {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-			</ul>
-        </nav>
+          {% endfor %}
+		</ul>
         
         {% include footer.html %}
       </aside>
