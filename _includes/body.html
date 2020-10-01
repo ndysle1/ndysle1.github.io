@@ -15,7 +15,8 @@
             .tar.gz file
           </a>
         {% endif %}
-        
+
+        <h2>Navigation</h2>
 		<ul>
           {% for page in site.pages %} {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
