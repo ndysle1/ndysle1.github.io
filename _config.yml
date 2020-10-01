@@ -7,5 +7,5 @@ url: https://ndysle1.github.io/
 
 # Build Settings
 include:['_pages']
-kramdown:
-  input: GFM
+markdown: kramdown
+input: GFM
