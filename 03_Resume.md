@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Resume
-permalink: /contact/
+navigation_weight: 3
+permalink: /resume/
 ---
 
 Add Resume here
