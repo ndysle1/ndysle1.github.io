@@ -4,6 +4,10 @@
     <h2> {{ site.description }} </h2>
     <a href="{{ site.github.owner_url }}" class="button"><small>Check out my</small> GitHub</a>
     
-    {% include social-media-links.html %}
+    <div id="socialMedia">
+      {% if site.social-media.email %}
+          <a href="mailto:{{ site.social-media.email }}" title="Email"><i class="fa fa-envelope-square"></i></a>
+      {% endif %}
+    </div>  
   </div>
 </header>

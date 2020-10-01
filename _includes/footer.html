@@ -1,3 +1,6 @@
 <footer>
+	{% include social-media-links.html %}
+	<p class="small">&copy; {{ site.time | date: '%Y' }}
+	{% assign site_name = site.name | default: site.title | append: '.' %}{% include email.html inner=site_name %}  All rights reserved.</p> </br>
 	Website designed by <a href="https://ndysle1.github.io/">Nicholas Dysle</a> using the Jekyll Architect theme on <a href="https://pages.github.com">GitHub Pages</a>.
 </footer>
