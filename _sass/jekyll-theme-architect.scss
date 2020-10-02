@@ -106,12 +106,14 @@ a.button small {
   display: block;
   font-size: 11px;
 }
+
 header a.button {
   position: absolute;
   top: 0;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
 aside a.button {
   display: block;
   width: 138px;
@@ -148,7 +150,7 @@ pre code {
   border: none;
 }
 
-ul, ol, dl {
+ul, ol, dl,li {
   margin-bottom: 20px;
 }
 
@@ -315,6 +317,13 @@ ol {
 dl dd {
   font-style: italic;
   font-weight: 100;
+}
+
+li {
+  font-style: italic;
+  font-weight: 100;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 24px;
 }
 
 footer {

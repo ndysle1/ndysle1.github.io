@@ -1,0 +1,69 @@
+Use Git Bash
+
+navigate to cd /c/Users/User/Documents/GitHub/Test-website
+
+type: bundle exec jekyll serve
+
+go to  localhost:4000
+
+OLD CODE:
+<header>
+    <div class = "header">
+       <div class="first-third">
+        <h1> {{ site.title }} </h1>
+        <h2> {{ site.description }} </h2>
+       </div>
+       <div class = "second-third">Picture here</div>
+       <div class = "third-third">
+        <a href="mailto:nicholasdysle@gmail.com" class="fa fa-envelope-square"></a>
+        <a href="https://github.com/ndysle1" class="fa fa-github"></a>
+        <a href="https://public.tableau.com/profile/nicholas.dysle#!/" class="fa fa-desktop"></a>
+        <a href="https://www.linkedin.com/in/nicholasdysle/" class="fa fa-linkedin"></a>
+      </div>
+      </div>
+    </header>
+
+
+
+
+
+    // Adding social media icon setting
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-envelope-o {
+background: #007bb5;
+color: white;
+position: absolute;
+bottom: 0;
+right: 150px;
+}
+.fa-github {
+background: #007bb5;
+color: white;
+position: absolute;
+bottom: 0;
+right: 100px;
+}
+.fa-desktop {
+background: #007bb5;
+color: white;
+position: absolute;
+bottom: 0;
+right: 50px;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+position: absolute;
+bottom: 0;
+right: 0;
+}
