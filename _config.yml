@@ -6,6 +6,8 @@ baseurl: ''
 url: https://ndysle1.github.io/
 
 # Build Settings
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [UA-179473891-1]
 include: ['_pages']
 markdown: kramdown
 input: GFM

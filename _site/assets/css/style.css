@@ -390,16 +390,8 @@ footer a:hover { color: #444; }
   #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-.fa { padding: 5px; font-size: 20px; width: 20px; text-align: center; text-decoration: none; border-radius: 50%; margin-top: 10px; }
+.socialicon { padding: 5px; width: 20px; height: 20px; text-align: center; text-decoration: none; border-radius: 50%; margin-top: 10px; background: #007bb5; color: white; }
 
-.fa:hover { opacity: 0.7; }
-
-.fa-envelope-o { background: #007bb5; color: white; }
-
-.fa-github { background: #007bb5; color: white; }
-
-.fa-desktop { background: #007bb5; color: white; }
-
-.fa-linkedin { background: #007bb5; color: white; }
+.socialicon:hover { opacity: 0.7; }
 
 .header-img { position: absolute; top: -20px; right: 0; border-color: white; border-radius: 50%; max-width: 500px; max-height: 600px; }

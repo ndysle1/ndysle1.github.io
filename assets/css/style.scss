@@ -2,36 +2,21 @@
 ---
 
 @import 'jekyll-theme-architect';
-// Adding social media icon setting
-.fa {
+
+  .socialicon {
     padding: 5px;
-    font-size: 20px;
     width: 20px;
+    height: 20px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     margin-top: 10px;
+    background: #007bb5;
+    color: white;
   }
-  .fa:hover {
+  .socialicon:hover {
     opacity: 0.7;
   }
-  .fa-envelope-o {
-  background: #007bb5;
-  color: white;
-  }
-  .fa-github {
-  background: #007bb5;
-  color: white;
-  }
-  .fa-desktop {
-  background: #007bb5;
-  color: white;
-  }
-  .fa-linkedin {
-  background: #007bb5;
-  color: white;
-  }
-  //End of social icons
 
   .header-img {
     position: absolute;
