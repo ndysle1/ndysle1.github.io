@@ -2,7 +2,7 @@
 theme: jekyll-theme-architect
 title: Nicholas Dysle
 description: My GitHub Pages Website!
-baseurl: 'home'
+baseurl: ''
 url: https://ndysle1.github.io/
 
 # Build Settings
