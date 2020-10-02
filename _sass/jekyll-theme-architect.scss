@@ -389,12 +389,12 @@ footer a:hover {
   }
   .header-img {
     position: absolute;
-    top: -20px;
+    bottom: -20px;
     right: 0;
     border-color: white;
     border-radius: 50%;
-    max-width: 20px;
-    max-height: 25px;
+    max-width: 60px;
+    max-height: 80px;
   }
 }
 
@@ -466,12 +466,12 @@ footer a:hover {
   }
   .header-img {
     position: absolute;
-    top: -20px;
+    bottom: -20px;
     right: 0;
     border-color: white;
     border-radius: 50%;
-    width: 20px;
-    height: 25px;
+    width: 60px;
+    height: 80px;
   }
 }
 
