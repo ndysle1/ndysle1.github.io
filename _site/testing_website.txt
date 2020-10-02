@@ -6,6 +6,27 @@ type: bundle exec jekyll serve
 
 go to  localhost:4000
 
+
+#Overwriting master branch
+# Rename master to old-master, staging to master
+$ (test) git checkout master
+$ (master) git branch -m old-master
+$ (old-master) git checkout test
+$ (test) git branch -m master
+
+# Force push test (now master) into remote master
+$ (master) git push origin master -f
+
+# Change branch names back to original
+$ (master) git branch -m test
+$ (test) git checkout old-master
+$ (old-master) git branch -m master
+
+# Sync local master with remote master
+$ (master) git fetch --all
+$ (master) git reset --hard origin/maste
+
+
 OLD CODE:
 <header>
     <div class = "header">

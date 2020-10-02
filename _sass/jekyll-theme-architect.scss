@@ -387,6 +387,15 @@ footer a:hover {
     margin-left: 0;
     content: none;
   }
+  .header-img {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    border-color: white;
+    border-radius: 50%;
+    max-width: 100x;
+    max-height: 100px;
+  }
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -454,6 +463,15 @@ footer a:hover {
     padding-right: 0;
     margin-left: 0;
     content: none;
+  }
+  .header-img {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    border-color: white;
+    border-radius: 50%;
+    max-width: 100x;
+    max-height: 100px;
   }
 }
 
