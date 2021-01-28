@@ -8,6 +8,8 @@ go to  localhost:4000
 
 
 #Overwriting master branch
+navigate to cd /c/Users/User/Documents/GitHub/GitHub-website
+
 # Rename master to old-master, staging to master
 $ (test) git checkout master
 $ (master) git branch -m old-master
@@ -24,7 +26,7 @@ $ (old-master) git branch -m master
 
 # Sync local master with remote master
 $ (master) git fetch --all
-$ (master) git reset --hard origin/maste
+$ (master) git reset --hard origin/master
 
 
 OLD CODE:
