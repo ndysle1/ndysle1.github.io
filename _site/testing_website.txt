@@ -1,6 +1,6 @@
 Use Git Bash
 
-navigate to cd /c/Users/User/Documents/GitHub/Test-website
+navigate to cd /c/Users/User/Documents/GitHub/GitHub-website
 
 type: bundle exec jekyll serve
 
