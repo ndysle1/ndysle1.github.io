@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 <h4>
-My name is Nicholas Dysle and I am a data analyst that is currently working for a small company in Washington, D.C. While the majority of my coding experience is in R and PostgreSQL, I have also been able to build foundational Python skills at work and in my free time. In terms of data visualization, I enjoy using R packages (e.g., ggplot & plotly) and Tableau. If you'd like to see some of the visualizations I have made or the code I have written, feel free to visit my <a href="https://public.tableau.com/profile/nicholas.dysle#!/" target="_blank">Tableau Public</a> or <a href="https://github.com/ndysle1" target="_blank">GitHub</a> repository. <br>
+My name is Nicholas Dysle and I am a data analyst that is currently working for an analytics company based in Washington, D.C. While the majority of my coding experience is in R and PostgreSQL, I also have some familiarity with Python. In terms of data visualization, I enjoy using R packages (e.g., ggplot & plotly) and Tableau. If you'd like to see some of the visualizations I have made or the code I have written, feel free to visit my <a href="https://public.tableau.com/profile/nicholas.dysle#!/" target="_blank">Tableau Public</a> or <a href="https://github.com/ndysle1" target="_blank">GitHub</a> repository. <br>
 <br>
 In terms of education, I have a Master of Applied Economics and a Master of Public Administration from The Ohio State University. These degrees opened my eyes to the world of data and set me on my current career trajectory. <br> 
 <br>
